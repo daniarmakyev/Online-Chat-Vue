@@ -1,4 +1,4 @@
-import { User } from "./auth.types";
+import type { User } from "./auth.types";
 
 export interface Channel {
 	_id: string;
