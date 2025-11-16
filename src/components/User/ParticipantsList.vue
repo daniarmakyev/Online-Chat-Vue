@@ -1,6 +1,6 @@
 <template>
     <div :class="$style.participantsList">
-        <h3 :class="$style.title">Participants</h3>
+        <h3 :class="$style.title">Members</h3>
 
         <div v-if="channelStore.loading" :class="$style.loading">
             Loading...

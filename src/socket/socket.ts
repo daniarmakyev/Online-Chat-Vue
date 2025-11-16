@@ -1,6 +1,6 @@
 import { io, Socket } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:3012";
+const SOCKET_URL = import.meta.env.VITE_API;
 
 class SocketService {
 	private socket: Socket | null = null;

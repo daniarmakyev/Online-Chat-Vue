@@ -10,7 +10,7 @@
                 </h2>
             </div>
             <button @click="showParticipants = !showParticipants" :class="$style.participantsBtn">
-                👥 Participants
+                Members
             </button>
         </div>
 
